@@ -1,0 +1,120 @@
+    [
+        {
+            "id": 1,
+            "text": "Em javascript, qual a diferença entre Set e Map?",
+            "correctOption": 2,
+            "options":[
+                {
+                    "id":1,
+                    "text":"Set é um array unidimensional, Map é um array multidimensional."
+                },
+                {
+                    "id":2,
+                    "text": "Set opera com um conjunto de valores únicos e de qualquer tipo, Map trabalha com um sistema de chave => valor, onde qualquer valor(objeto e valores primitivos) pode ser usado como chave ou valor."
+                },
+                {
+                    "id":3,
+                    "text": "Set se refere a um conjunto de dados primitivos e de valor único, Map se refere a um conjunto de dados múltiplos como arrays e objetos." 
+                },
+                {
+                    "id":4,
+                    "text": "Set é um conjunto de dados de constante mudança de valores, dessa forma, é garantida performance em remoção e atualização do conjunto, Map é um conjunto de dados de constante análise, assim é garantida performance na busca por valores."
+                }
+            ]
+        },
+        {
+            "id":2,
+            "text": "O que é closure em javascript?",
+            "correctOption":4,
+            "options":[
+                {
+                    "id":1,
+                    "text":"Uma função especial para o tratamento de uma Promise"
+                },
+                {
+                    "id":2,
+                    "text":"A possibilidade de uma função possuir várias assinaturas"
+                },
+                {
+                    "id":3,
+                    "text":"Uma função de encerramento que lida com todas as depêndencias que eventualmente não foram tratadas e finalizadas em um processo"
+                },
+                {
+                    "id":4,
+                    "text":"Quando uma função é capaz de acessar elementos do seu escopo léxico, mesmo sendo executada fora dele"
+                }
+            ]
+        },
+        {
+            "id":3,
+            "text": "No CSS, qual a diferença entre pseudo-classes e pseudo-elementos?",
+            "correctOption": 2,
+            "options":[
+                {
+                    "id":1,
+                    "text": "Pseudo-classes são estilizações em containers como divs. Pseudo-elementos são estilizações em texto como h1 ou p."
+                },
+                {
+                    "id":2,
+                    "text":"Pseudo-classes definem um estado especial de um elemento, como o :hover que define quando quando o mouse está sobre o elemento. Pseudo-elementos permitem selecionar partes específicas de um elemento, como o ::first-line que estiliza a primeira letra do elemento especificado."
+                },
+                {
+                    "id": 3,
+                    "text":"Pseudo-classes é o estado no qual a estilização será herdada para os elementos filhos do elemento. Pseudo-elementos é o estado no qual apenas o elemento será estilizado, sendo necessário estilizar os elementos filhos posteriormente."
+                },
+                {
+                    "id": 4,
+                    "text":"Pseudo-classes é quando a estilização CSS ocorre na tag <style> ou em um arquivo separado. Pseudo-elemento é quando quando a estilização CSS ocorre na prórpia tag HTML."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "text": " Quais tags HTML são usadas para exibir os dados na forma tabular?",
+            "correctOption": 1,
+            "options":[
+                {
+                    "id":1,
+                    "text":"<table> para a tabela, <tr> para cada linha, <td> para cada célula em uma linha"
+                },
+                {
+                    "id":2,
+                    "text": "<table> para a tabela, <th> para cada linha, <tr> para cada célula em uma linha"
+                },
+                {
+                    "id": 3,
+                    "text": "<table> para a tabela, <td> para cada linha, <tr> para cada célula em uma linha"
+                },
+                {
+                    "id":4,
+                    "text":"<table> para a tabela, <tr> para cada linha, <th> para cada célula em uma linha"
+                }
+
+            ]
+        },
+        {
+            "id": 5,
+            "text": "Qual a principal diferença entre CSS Grid e Flexbox?",
+            "correctOption": 3,
+            "options":[
+                {
+                    "id":1,
+                    "text":"FlexBox alinha os elementos na vertical. CSS Grid alinha os elementos na horizontal"
+                },
+                {
+                    "id":2,
+                    "text":"FlexBox é ideal para definir a disposição dos elementos na página (como são distribuidos). CSS Grid é ideal para estilização visual dos elementos (cor, tamanho da fonte)"
+                },
+                {
+                    "id":3,
+                    "text":"FlexBox é ideal para definir o alinhamento de componentes na vertical ou na horizontal. CSS Grid é ideal para diposição de elementos em bloco (alinhamento em duas dimensões)."
+                },
+                {
+                    "id":4,
+                    "text":"FlexBox é utilizado para a responsividade em diferentes tamanhos de tela. CSS Grid é utilizado para a criação de animações em CSS"
+                }
+            ]   
+        }
+    ]
+
+   

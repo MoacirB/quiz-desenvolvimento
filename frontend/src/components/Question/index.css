@@ -1,0 +1,74 @@
+#question
+{
+    margin: 2%;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    /*background-color: blueviolet;*/
+}
+
+#question .text
+{
+    background-color: #4A5485;
+    border-radius: 5px;
+    color: #b8bfe5;
+    height: auto;
+    margin-top: 1%;
+    padding: 1%;
+    /*vertical-align: middle;*/
+}
+#question .count
+{
+    margin-top: 4%;
+    color: #222;
+}
+
+#question .option
+{
+    margin-top: 5%;
+    background-color: #DDF;
+    color: #424242;
+    border-radius: 5px;
+
+    min-height: 50px;
+
+    cursor: pointer;
+}
+
+#question .option p
+{
+    vertical-align: middle;
+    padding: 1%;
+}
+
+#question .option-radio
+{
+    display: none;  
+}
+
+
+#question .option .checked{
+    background-color: #5b97b9;/*Alterar*/
+}
+
+#question .option .correct{
+    background-color: #6afeb8;
+}
+
+#question .option .incorrect{
+    background-color: #fc7f81;
+}
+
+
+
+#question .submit{
+    background-color: #4a5485;
+    color: #b7c0de;
+
+    border: none;
+    border-radius: 5px;
+    padding: 3%;
+    height: 100%;
+    margin-top: 5%;
+    font-size: 16px;
+    cursor: pointer;
+}

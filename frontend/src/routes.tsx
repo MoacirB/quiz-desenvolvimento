@@ -10,7 +10,7 @@ function Routes(){
         <BrowserRouter>
             <Route path='/' exact={true} component={Start}/>
             <Route path='/quiz' component={Quiz}/>
-            <Redirect to='/quiz'/>
+            <Redirect to='/'/>
         </BrowserRouter>
     )
 }

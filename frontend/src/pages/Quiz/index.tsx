@@ -79,7 +79,7 @@ function Quiz(){
                 {inGame && getQuiz === "FAIL" &&  <div className="fail"><h1>Ocorreu um erro! Por obséquio tente novamente</h1></div>}
                 {!inGame && (
                     (result === "WIN") ?
-                    <Result start={handleRestart} resultText="Congrulations!!"/>
+                    <Result start={handleRestart} resultText="Congratulations!!"/>
                     :
                     <Result start={handleRestart} resultText="You fail :(" resultDescription="Tente novamente"/>
                 )}

@@ -12,6 +12,7 @@ Execute um dos seguintes comandos na pasta do back para executar
 ```bash
 mvnw spring-boot:run
 ```
+  
 **MacOS/Linux**
 ```bash
 ./mvnw spring-boot:run

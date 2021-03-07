@@ -26,13 +26,13 @@ const QuestionComponent: React.FC<QuestionComponentProps> = ({ question, count, 
     const [isSubmited, setIsSubmited] = useState<boolean>(false);
     const [correct, setCorrect] = useState<boolean>(false);
 
-    useEffect( ()=>{
+    useEffect( ()=>{//Resetar states para cada questão
         setChoice(undefined);
         setIsSubmited(false);
         setCorrect(false);
     }, [question]);
 
-    function handleSubmit(e: React.FormEvent<HTMLFormElement>) {//Reset para novas questões
+    function handleSubmit(e: React.FormEvent<HTMLFormElement>) {//Ao submeter uma questão
         e.preventDefault();
 
         if(choice !== undefined){

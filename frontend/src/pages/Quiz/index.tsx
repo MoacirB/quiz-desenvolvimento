@@ -47,11 +47,11 @@ function Quiz(){
         });
     }, []);
 
-    function handleRestart(){
+    function handleRestart(){//Recomeçar
         history.push('/');
     }
 
-    function handleSubmit(choice: number){
+    function handleSubmit(choice: number){//Ao sumbeter uma questão
 
         let question = questions[currentQuestion];
 
@@ -81,7 +81,7 @@ function Quiz(){
                     (result === "WIN") ?
                     <Result start={handleRestart} resultText="Congrulations!!"/>
                     :
-                    <Result start={handleRestart} resultText="You fail :("/>
+                    <Result start={handleRestart} resultText="You fail :(" resultDescription="Tente novamente"/>
                 )}
             </div>
             
